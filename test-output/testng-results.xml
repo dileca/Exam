@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Amount Correct (1)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (1)]]>
+    </line>
+    <line>
+      <![CDATA[Expected Country =  United States]]>
+    </line>
+    <line>
+      <![CDATA[Actual Country =  United States]]>
+    </line>
+    <line>
+      <![CDATA[Expected State =  Massachussetts]]>
+    </line>
+    <line>
+      <![CDATA[Actual State =  Massachussetts]]>
+    </line>
+    <line>
+      <![CDATA[Expected Zip Code =  52116]]>
+    </line>
+    <line>
+      <![CDATA[Actual Zip Code =  52116]]>
+    </line>
+    <line>
+      <![CDATA[Expected Manufacturer =  Apple]]>
+    </line>
+    <line>
+      <![CDATA[Actual Manufacturer =  Apple]]>
+    </line>
+    <line>
+      <![CDATA[Expected Color =  Yellow]]>
+    </line>
+    <line>
+      <![CDATA[Actual Color =  Yellow]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (1)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (1)]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (0)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (0)]]>
+    </line>
+    <line>
+      <![CDATA[Expected Price =  100]]>
+    </line>
+    <line>
+      <![CDATA[Actual Price =  100]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (1)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (1)]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (3)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (3)]]>
+    </line>
+    <line>
+      <![CDATA[Expected Price x 3 =  300]]>
+    </line>
+    <line>
+      <![CDATA[Actual Price x 3 =  300]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (2)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (2)]]>
+    </line>
+    <line>
+      <![CDATA[Expected Price x 2 =  200]]>
+    </line>
+    <line>
+      <![CDATA[Actual Price x 2 =  200]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (1)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (1)]]>
+    </line>
+    <line>
+      <![CDATA[Expected Price =  100]]>
+    </line>
+    <line>
+      <![CDATA[Actual Price =  100]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title =  Blue Jeans]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title =  Blue Jeans]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (1)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (1)]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title =  Build your own cheap computer]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title =  Build your own cheap computer]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title =  Desktop PC with CDRW]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title =  Desktop PC with CDRW]]>
+    </line>
+    <line>
+      <![CDATA[Expected value of Desktop PC with CDRW  = 500]]>
+    </line>
+    <line>
+      <![CDATA[Actual value of Desktop PC with CDRW  = 500]]>
+    </line>
+    <line>
+      <![CDATA[Expected value of Build your own cheap computer  = 800]]>
+    </line>
+    <line>
+      <![CDATA[Actual value of Build your own cheap computer  = 800]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title =  Create Your Own Jewelry]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title =  Create Your Own Jewelry]]>
+    </line>
+    <line>
+      <![CDATA[Expected Material =  Silver 1 mm]]>
+    </line>
+    <line>
+      <![CDATA[Actual Material =  Silver 1 mm]]>
+    </line>
+    <line>
+      <![CDATA[Expected Length =  30]]>
+    </line>
+    <line>
+      <![CDATA[Actual Length =  30]]>
+    </line>
+    <line>
+      <![CDATA[Expected Pendant Style =  Star]]>
+    </line>
+    <line>
+      <![CDATA[Actual Pendant Style =  Star]]>
+    </line>
+    <line>
+      <![CDATA[Amount Correct (1)]]>
+    </line>
+    <line>
+      <![CDATA[Text is (1)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-27T10:16:57Z" name="Default suite" finished-at="2022-06-27T10:18:53Z" duration-ms="116241">
+    <groups>
+    </groups>
+    <test started-at="2022-06-27T10:16:57Z" name="Default test" finished-at="2022-06-27T10:18:53Z" duration-ms="116241">
+      <class name="testCases.TestCasesExam">
+        <test-method signature="GIVEN_userAddsDiamondHeartNecklaceToShoppingCart_WHEN_userSelectsUSACountry_AND_selectsMassachusettsState_AND_inputs02216ZipCode_AND_userSelectsEstimateShipping_THEN_shippingDetailsAreDisplays()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:16:57Z" name="GIVEN_userAddsDiamondHeartNecklaceToShoppingCart_WHEN_userSelectsUSACountry_AND_selectsMassachusettsState_AND_inputs02216ZipCode_AND_userSelectsEstimateShipping_THEN_shippingDetailsAreDisplays" finished-at="2022-06-27T10:17:09Z" duration-ms="12175" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Amount Correct (1)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (1)]]>
+            </line>
+            <line>
+              <![CDATA[Expected Country =  United States]]>
+            </line>
+            <line>
+              <![CDATA[Actual Country =  United States]]>
+            </line>
+            <line>
+              <![CDATA[Expected State =  Massachussetts]]>
+            </line>
+            <line>
+              <![CDATA[Actual State =  Massachussetts]]>
+            </line>
+            <line>
+              <![CDATA[Expected Zip Code =  52116]]>
+            </line>
+            <line>
+              <![CDATA[Actual Zip Code =  52116]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_userAddsDiamondHeartNecklaceToShoppingCart_WHEN_userSelectsUSACountry_AND_selectsMassachusettsState_AND_inputs02216ZipCode_AND_userSelectsEstimateShipping_THEN_shippingDetailsAreDisplays -->
+        <test-method signature="GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:17:09Z" name="GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns" finished-at="2022-06-27T10:17:28Z" duration-ms="18669" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Manufacturer =  Apple]]>
+            </line>
+            <line>
+              <![CDATA[Actual Manufacturer =  Apple]]>
+            </line>
+            <line>
+              <![CDATA[Expected Color =  Yellow]]>
+            </line>
+            <line>
+              <![CDATA[Actual Color =  Yellow]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (1)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (1)]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (0)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (0)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns -->
+        <test-method signature="GIVEN_userIsOnLandingPage_AND_entersSmartphoneAsSearchString_AND_clicksSearchButton_AND_addsToCart_WHEN_userUpdatesQtyTextBox_THEN_shoppingCartAmountIsUpdated()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:17:28Z" name="GIVEN_userIsOnLandingPage_AND_entersSmartphoneAsSearchString_AND_clicksSearchButton_AND_addsToCart_WHEN_userUpdatesQtyTextBox_THEN_shoppingCartAmountIsUpdated" finished-at="2022-06-27T10:17:43Z" duration-ms="15552" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Price =  100]]>
+            </line>
+            <line>
+              <![CDATA[Actual Price =  100]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (1)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (1)]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (3)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (3)]]>
+            </line>
+            <line>
+              <![CDATA[Expected Price x 3 =  300]]>
+            </line>
+            <line>
+              <![CDATA[Actual Price x 3 =  300]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (2)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (2)]]>
+            </line>
+            <line>
+              <![CDATA[Expected Price x 2 =  200]]>
+            </line>
+            <line>
+              <![CDATA[Actual Price x 2 =  200]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (1)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (1)]]>
+            </line>
+            <line>
+              <![CDATA[Expected Price =  100]]>
+            </line>
+            <line>
+              <![CDATA[Actual Price =  100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_userIsOnLandingPage_AND_entersSmartphoneAsSearchString_AND_clicksSearchButton_AND_addsToCart_WHEN_userUpdatesQtyTextBox_THEN_shoppingCartAmountIsUpdated -->
+        <test-method signature="GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:17:43Z" name="GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart" finished-at="2022-06-27T10:17:54Z" duration-ms="10682" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Title =  Blue Jeans]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title =  Blue Jeans]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (1)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart -->
+        <test-method signature="GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:17:54Z" name="GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned" finished-at="2022-06-27T10:18:12Z" duration-ms="17887" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Title =  Build your own cheap computer]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title =  Build your own cheap computer]]>
+            </line>
+            <line>
+              <![CDATA[Expected Title =  Desktop PC with CDRW]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title =  Desktop PC with CDRW]]>
+            </line>
+            <line>
+              <![CDATA[Expected value of Desktop PC with CDRW  = 500]]>
+            </line>
+            <line>
+              <![CDATA[Actual value of Desktop PC with CDRW  = 500]]>
+            </line>
+            <line>
+              <![CDATA[Expected value of Build your own cheap computer  = 800]]>
+            </line>
+            <line>
+              <![CDATA[Actual value of Build your own cheap computer  = 800]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned -->
+        <test-method signature="GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:18:12Z" name="GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart" finished-at="2022-06-27T10:18:27Z" duration-ms="15321" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Title =  Create Your Own Jewelry]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title =  Create Your Own Jewelry]]>
+            </line>
+            <line>
+              <![CDATA[Expected Material =  Silver 1 mm]]>
+            </line>
+            <line>
+              <![CDATA[Actual Material =  Silver 1 mm]]>
+            </line>
+            <line>
+              <![CDATA[Expected Length =  30]]>
+            </line>
+            <line>
+              <![CDATA[Actual Length =  30]]>
+            </line>
+            <line>
+              <![CDATA[Expected Pendant Style =  Star]]>
+            </line>
+            <line>
+              <![CDATA[Actual Pendant Style =  Star]]>
+            </line>
+            <line>
+              <![CDATA[Amount Correct (1)]]>
+            </line>
+            <line>
+              <![CDATA[Text is (1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart -->
+        <test-method signature="SearchSiteWithExcel(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:18:27Z" name="SearchSiteWithExcel" data-provider="Product and Quantity" finished-at="2022-06-27T10:18:40Z" duration-ms="12816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Belt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchSiteWithExcel -->
+        <test-method signature="SearchSiteWithExcel(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:18:40Z" name="SearchSiteWithExcel" data-provider="Product and Quantity" finished-at="2022-06-27T10:18:53Z" duration-ms="12869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Health Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchSiteWithExcel -->
+        <test-method is-config="true" signature="closeBrowswer()[pri:0, instance:testCases.TestCasesExam@6fe46b62]" started-at="2022-06-27T10:18:53Z" name="closeBrowswer" finished-at="2022-06-27T10:18:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowswer -->
+      </class> <!-- testCases.TestCasesExam -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

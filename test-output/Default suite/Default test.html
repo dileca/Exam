@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 27 12:16:57 SAST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>116 seconds (116241 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TestCasesExam.GIVEN_userAddsDiamondHeartNecklaceToShoppingCart_WHEN_userSelectsUSACountry_AND_selectsMassachusettsState_AND_inputs02216ZipCode_AND_userSelectsEstimateShipping_THEN_shippingDetailsAreDisplays()'><b>GIVEN_userAddsDiamondHeartNecklaceToShoppingCart_WHEN_userSelectsUSACountry_AND_selectsMassachusettsState_AND_inputs02216ZipCode_AND_userSelectsEstimateShipping_THEN_shippingDetailsAreDisplays</b><br>Test class: testCases.TestCasesExam<br/>
+<a href="#Output-1754451055" onClick='toggleBox("Output-1754451055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1754451055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1754451055">
+Amount Correct (1)<br/>
+Text is (1)<br/>
+Expected Country =  United States<br/>
+Actual Country =  United States<br/>
+Expected State =  Massachussetts<br/>
+Actual State =  Massachussetts<br/>
+Expected Zip Code =  52116<br/>
+Actual Zip Code =  52116<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns()'><b>GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns</b><br>Test class: testCases.TestCasesExam<br/>
+<a href="#Output-532297836" onClick='toggleBox("Output-532297836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-532297836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-532297836">
+Expected Manufacturer =  Apple<br/>
+Actual Manufacturer =  Apple<br/>
+Expected Color =  Yellow<br/>
+Actual Color =  Yellow<br/>
+Amount Correct (1)<br/>
+Text is (1)<br/>
+Amount Correct (0)<br/>
+Text is (0)<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.GIVEN_userIsOnLandingPage_AND_entersSmartphoneAsSearchString_AND_clicksSearchButton_AND_addsToCart_WHEN_userUpdatesQtyTextBox_THEN_shoppingCartAmountIsUpdated()'><b>GIVEN_userIsOnLandingPage_AND_entersSmartphoneAsSearchString_AND_clicksSearchButton_AND_addsToCart_WHEN_userUpdatesQtyTextBox_THEN_shoppingCartAmountIsUpdated</b><br>Test class: testCases.TestCasesExam<br/>
+<a href="#Output-1422883946" onClick='toggleBox("Output-1422883946", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1422883946" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1422883946">
+Expected Price =  100<br/>
+Actual Price =  100<br/>
+Amount Correct (1)<br/>
+Text is (1)<br/>
+Amount Correct (3)<br/>
+Text is (3)<br/>
+Expected Price x 3 =  300<br/>
+Actual Price x 3 =  300<br/>
+Amount Correct (2)<br/>
+Text is (2)<br/>
+Expected Price x 2 =  200<br/>
+Actual Price x 2 =  200<br/>
+Amount Correct (1)<br/>
+Text is (1)<br/>
+Expected Price =  100<br/>
+Actual Price =  100<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart()'><b>GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart</b><br>Test class: testCases.TestCasesExam<br/>
+<a href="#Output-1360312263" onClick='toggleBox("Output-1360312263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1360312263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1360312263">
+Expected Title =  Blue Jeans<br/>
+Actual Title =  Blue Jeans<br/>
+Amount Correct (1)<br/>
+Text is (1)<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned()'><b>GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned</b><br>Test class: testCases.TestCasesExam<br/>
+<a href="#Output-504355631" onClick='toggleBox("Output-504355631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-504355631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-504355631">
+Expected Title =  Build your own cheap computer<br/>
+Actual Title =  Build your own cheap computer<br/>
+Expected Title =  Desktop PC with CDRW<br/>
+Actual Title =  Desktop PC with CDRW<br/>
+Expected value of Desktop PC with CDRW  = 500<br/>
+Actual value of Desktop PC with CDRW  = 500<br/>
+Expected value of Build your own cheap computer  = 800<br/>
+Actual value of Build your own cheap computer  = 800<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart()'><b>GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart</b><br>Test class: testCases.TestCasesExam<br/>
+<a href="#Output-275448142" onClick='toggleBox("Output-275448142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-275448142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275448142">
+Expected Title =  Create Your Own Jewelry<br/>
+Actual Title =  Create Your Own Jewelry<br/>
+Expected Material =  Silver 1 mm<br/>
+Actual Material =  Silver 1 mm<br/>
+Expected Length =  30<br/>
+Actual Length =  30<br/>
+Expected Pendant Style =  Star<br/>
+Actual Pendant Style =  Star<br/>
+Amount Correct (1)<br/>
+Text is (1)<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.SearchSiteWithExcel()'><b>SearchSiteWithExcel</b><br>Test class: testCases.TestCasesExam<br>Parameters: Belt, 1</td>
+<td></td>
+<td>12</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+<tr>
+<td title='testCases.TestCasesExam.SearchSiteWithExcel()'><b>SearchSiteWithExcel</b><br>Test class: testCases.TestCasesExam<br>Parameters: Health Book, 1</td>
+<td></td>
+<td>12</td>
+<td>testCases.TestCasesExam@6fe46b62</td></tr>
+</table><p>
+</body>
+</html>

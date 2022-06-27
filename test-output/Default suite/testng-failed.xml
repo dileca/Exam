@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.TestCasesExam">
+        <methods>
+          <include name="GIVEN_userIsOnLandingPage_AND_entersSmartphoneAsSearchString_AND_clicksSearchButton_AND_addsToCart_WHEN_userUpdatesQtyTextBox_THEN_shoppingCartAmountIsUpdated"/>
+          <include name="GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart"/>
+          <include name="GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart"/>
+          <include name="SearchSiteWithExcel" invocation-numbers="0 1"/>
+          <include name="GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned"/>
+          <include name="closeBrowswer"/>
+          <include name="GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns"/>
+        </methods>
+      </class> <!-- testCases.TestCasesExam -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

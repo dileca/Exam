@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Exam Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.ReadDataFromExcel">
+        <methods>
+          <include name="setUp"/>
+          <include name="ProductQuantityString"/>
+        </methods>
+      </class> <!-- testCases.ReadDataFromExcel -->
+      <class name="testCases.PlayTestCasesExam">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns"/>
+          <include name="GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart"/>
+          <include name="GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned"/>
+          <include name="GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart"/>
+        </methods>
+      </class> <!-- testCases.PlayTestCasesExam -->
+      <class name="testCases.TestCasesExam">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="GIVEN_userSelectsCreateYourOwnJewelryViaTheJewelryCategoryList_AND_selectsSilverImm_AND_inputs30cmLength_AND_selectsStarPendantType_WHEN_userAddsToCart_THEN_itemIsSuccessfullyDisplaysInShopppingCart"/>
+          <include name="GIVEN_userIsOnLandingPage_AND_selectsBlueJeansViaApparlAndShoesHeaderMenu_WHEN_userAddsToCart_THEN_successNotificationIsDisplayed_AND_itemIsSuccessfullyDisplaysInShopppingCart"/>
+          <include name="GIVEN_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_userSelectsAddToCompareListForDesktopPCWithCDRW_AND_itemsDisplayInCompareProducts_WHEN_userSelectsClearList_THEN_listIsCleared_AND_noItemsMessageIsReturned"/>
+          <include name="GIVEN_userAddsYellowApplePhoneCoverToShoppingCart_WHEN_userChecksTheRemoveCheckbox_AND_selectsUpdateShopingCart_THEN_itemsAreSuccessfullyRemovedFromShoppingCart_AND_emptyCartMessageIsReturns"/>
+          <include name="GIVEN_userAddsDiamondHeartNecklaceToShoppingCart_WHEN_userSelectsUSACountry_AND_selectsMassachusettsState_AND_inputs02216ZipCode_AND_userSelectsEstimateShipping_THEN_shippingDetailsAreDisplays"/>
+        </methods>
+      </class> <!-- testCases.TestCasesExam -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Exam Suite] -->
